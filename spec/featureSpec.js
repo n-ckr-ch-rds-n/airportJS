@@ -9,7 +9,7 @@ describe('Feature Test:', function() {
   var airport;
 
   beforeEach(function() {
-    plan = new Plane();
+    plane = new Plane();
     airport = new Airport();
   });
 
@@ -17,5 +17,5 @@ describe('Feature Test:', function() {
     plane.land(airport);
     expect(airport.planes()).toContain(plane);
   });
-  
+
 });
